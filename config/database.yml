@@ -82,6 +82,6 @@ test:
 #
 production:
   <<: *default
-  database: mydb
-  username: deploy
-  password: habibali
+  database: yourdbname
+  username: youruser
+  password: yourpass
