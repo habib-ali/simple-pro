@@ -85,4 +85,3 @@ production:
   database: mydb
   username: deploy
   password: habibali
-  #  password: <%= ENV['SIMPLE-PRO_DATABASE_PASSWORD'] %>
