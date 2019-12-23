@@ -82,7 +82,7 @@ test:
 #
 production:
   <<: *default
-  database: simple-pro
+  database: mydb
   username: deploy
   password: habibali
   #  password: <%= ENV['SIMPLE-PRO_DATABASE_PASSWORD'] %>
