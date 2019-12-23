@@ -84,4 +84,5 @@ production:
   <<: *default
   database: simple-pro
   username: deploy
-  password: <%= ENV['SIMPLE-PRO_DATABASE_PASSWORD'] %>
+  password: habibali
+  #  password: <%= ENV['SIMPLE-PRO_DATABASE_PASSWORD'] %>
