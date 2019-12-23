@@ -7,7 +7,8 @@ lock "~> 3.11.2"
 
 # -----------Copied part starts--------
 set :application, "simple-pro"
-set :repo_url, "git@github.com:habib/simple-pro.git"
+set :repo_url, "git@github.com:habib-ali/simple-pro.git"
+
 
 # Deploy to the user's home directory
 set :deploy_to, "/home/deploy/#{fetch :application}"
