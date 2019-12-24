@@ -6,7 +6,7 @@ lock "~> 3.11.2"
 
 
 # -----------Copied part starts--------
-set :application, "simple_pro"
+set :application, "simple-pro"
 set :repo_url, "git@github.com:habib-ali/simple-pro.git"
 
 
