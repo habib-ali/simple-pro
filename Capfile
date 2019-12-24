@@ -5,8 +5,8 @@ require "capistrano/setup"
 require "capistrano/deploy"
 
 #...... added from tutorial start---------
-#require 'capistrano/rails'
-require 'capistrano/passenger'
+require 'capistrano/rails'
+#require 'capistrano/passenger'
 require 'capistrano/rbenv'
 
 set :rbenv_type, :user

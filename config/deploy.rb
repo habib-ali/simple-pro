@@ -6,12 +6,12 @@ lock "~> 3.11.2"
 
 
 # -----------Copied part starts--------
-set :application, "simple-pro"
+set :application, "simple_pro"
 set :repo_url, "git@github.com:habib-ali/simple-pro.git"
 
 
 # Deploy to the user's home directory
-set :deploy_to, "/home/deploy/#{fetch :application}"
+set :deploy_to, "/home/projetcs/#{fetch :application}"
 
 append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', '.bundle', 'public/system', 'public/uploads'
 
