@@ -61,8 +61,6 @@ GEM
       sshkit (>= 1.9.0)
     capistrano-bundler (1.6.0)
       capistrano (~> 3.1)
-    capistrano-passenger (0.2.0)
-      capistrano (~> 3.0)
     capistrano-rails (1.4.0)
       capistrano (~> 3.1)
       capistrano-bundler (~> 1.1)
@@ -216,7 +214,6 @@ DEPENDENCIES
   bootsnap (>= 1.1.0)
   byebug
   capistrano (~> 3.11)
-  capistrano-passenger (~> 0.2.0)
   capistrano-rails (~> 1.4)
   capistrano-rbenv (~> 2.1, >= 2.1.4)
   capybara (>= 2.15)
@@ -237,7 +234,7 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 RUBY VERSION
-   ruby 2.6.5p114
+   ruby 2.5.3p105
 
 BUNDLED WITH
    1.17.3
