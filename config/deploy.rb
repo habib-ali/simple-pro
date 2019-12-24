@@ -11,7 +11,7 @@ set :repo_url, "git@github.com:habib-ali/simple-pro.git"
 
 
 # Deploy to the user's home directory
-set :deploy_to, "/home/projetcs/#{fetch :application}"
+set :deploy_to, "/home/projects/#{fetch :application}"
 
 append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', '.bundle', 'public/system', 'public/uploads'
 
