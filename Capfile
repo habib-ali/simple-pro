@@ -6,6 +6,7 @@ require "capistrano/deploy"
 
 #...... added from tutorial start---------
 require 'capistrano/rails'
+require 'rvm1/capistrano3'
 #require 'capistrano/passenger'
 #require 'capistrano/rbenv'
 
