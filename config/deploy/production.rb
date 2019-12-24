@@ -8,7 +8,7 @@
 # server "db.example.com", user: "deploy", roles: %w{db}
 set :branch, "master"
 set :deploy_to, '/home/deploy/simple_pro/'
-server '138.68.79.198', user: 'deploy', roles: %w{app db web}
+server '138.68.79.198', user: 'deployment', roles: %w{app db web}
 # role-based syntax
 # ==================
 
