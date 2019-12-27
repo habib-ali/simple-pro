@@ -82,6 +82,6 @@ test:
 #
 production:
   <<: *default
-  database: yourdbname
-  username: youruser
-  password: yourpass
+  database: firstapp_production
+  username: dev_rails
+  password: 12345678
